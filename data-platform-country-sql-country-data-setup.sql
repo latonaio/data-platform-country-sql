@@ -1,254 +1,145 @@
 LOCK TABLES `data_platform_country_country_data` WRITE;
 
-INSERT INTO `data_platform_country_country_data` (`Country`)
+INSERT INTO `data_platform_country_country_data` (`Country`, `GlobalRegion`)
 VALUES
-	('AF');
-	('AX');
-	('AL');
-	('DZ');
-	('AS');
-	('AD');
-	('AO');
-	('AI');
-	('AQ');
-	('AG');
-	('AR');
-	('AM');
-	('AW');
-	('AU');
-	('AT');
-	('AZ');
-	('BS');
-	('BH');
-	('BD');
-	('BB');
-	('BY');
-	('BE');
-	('BZ');
-	('BJ');
-	('BM');
-	('BT');
-	('BO');
-	('BQ');
-	('BA');
-	('BW');
-	('BV');
-	('BR');
-	('IO');
-	('BN');
-	('BG');
-	('BF');
-	('BI');
-	('KH');
-	('CM');
-	('CA');
-	('CV');
-	('KY');
-	('CF');
-	('TD');
-	('CL');
-	('CN');
-	('CX');
-	('CC');
-	('CO');
-	('KM');
-	('CG');
-	('CD');
-	('CK');
-	('CR');
-	('CI');
-	('HR');
-	('CU');
-	('CW');
-	('CY');
-	('CZ');
-	('DK');
-	('DJ');
-	('DM');
-	('DO');
-	('EC');
-	('EG');
-	('SV');
-	('GQ');
-	('ER');
-	('EE');
-	('ET');
-	('FK');
-	('FO');
-	('FJ');
-	('FI');
-	('FR');
-	('GF');
-	('PF');
-	('TF');
-	('GA');
-	('GM');
-	('GE');
-	('DE');
-	('GH');
-	('GI');
-	('GR');
-	('GL');
-	('GD');
-	('GP');
-	('GU');
-	('GT');
-	('GG');
-	('GN');
-	('GW');
-	('GY');
-	('HT');
-	('HM');
-	('VA');
-	('HN');
-	('HK');
-	('HU');
-	('IS');
-	('IN');
-	('ID');
-	('IR');
-	('IQ');
-	('IE');
-	('IM');
-	('IL');
-	('IT');
-	('JM');
-	('JP');
-	('JE');
-	('JO');
-	('KZ');
-	('KE');
-	('KI');
-	('KP');
-	('KR');
-	('KW');
-	('KG');
-	('LA');
-	('LV');
-	('LB');
-	('LS');
-	('LR');
-	('LY');
-	('LI');
-	('LT');
-	('LU');
-	('MO');
-	('MK');
-	('MG');
-	('MW');
-	('MY');
-	('MV');
-	('ML');
-	('MT');
-	('MH');
-	('MQ');
-	('MR');
-	('MU');
-	('YT');
-	('MX');
-	('FM');
-	('MD');
-	('MC');
-	('MN');
-	('ME');
-	('MS');
-	('MA');
-	('MZ');
-	('MM');
-	('NA');
-	('NR');
-	('NP');
-	('NL');
-	('NC');
-	('NZ');
-	('NI');
-	('NE');
-	('NG');
-	('NU');
-	('NF');
-	('MP');
-	('NO');
-	('OM');
-	('PK');
-	('PW');
-	('PS');
-	('PA');
-	('PG');
-	('PY');
-	('PE');
-	('PH');
-	('PN');
-	('PL');
-	('PT');
-	('PR');
-	('QA');
-	('RE');
-	('RO');
-	('RU');
-	('RW');
-	('BL');
-	('SH');
-	('KN');
-	('LC');
-	('MF');
-	('PM');
-	('VC');
-	('WS');
-	('SM');
-	('ST');
-	('SA');
-	('SN');
-	('RS');
-	('SC');
-	('SL');
-	('SG');
-	('SX');
-	('SK');
-	('SI');
-	('SB');
-	('SO');
-	('ZA');
-	('GS');
-	('SS');
-	('ES');
-	('LK');
-	('SD');
-	('SR');
-	('SJ');
-	('SZ');
-	('SE');
-	('CH');
-	('SY');
-	('TW');
-	('TJ');
-	('TZ');
-	('TH');
-	('TL');
-	('TG');
-	('TK');
-	('TO');
-	('TT');
-	('TN');
-	('TR');
-	('TM');
-	('TC');
-	('TV');
-	('UG');
-	('UA');
-	('AE');
-	('GB');
-	('US');
-	('UM');
-	('UY');
-	('UZ');
-	('VU');
-	('VE');
-	('VN');
-	('VG');
-	('VI');
-	('WF');
-	('EH');
-	('YE');
-	('ZM');
-	('ZW');
+     ('AF', 'AS')
+     ('DZ', 'AF')
+     ('AQ', 'WW')
+     ('AR', 'SA')
+     ('AU', 'PC')
+     ('AT', 'EU')
+     ('BH', 'ME')
+     ('BD', 'AS')
+     ('BY', 'EU')
+     ('BE', 'EU')
+     ('BT', 'AS')
+     ('BA', 'EU')
+     ('BR', 'SA')
+     ('IO', 'AS')
+     ('BG', 'EU')
+     ('BF', 'AF')
+     ('BI', 'AF')
+     ('KH', 'AS')
+     ('CM', 'AF')
+     ('CA', 'NA')
+     ('CF', 'AF')
+     ('CL', 'SA')
+     ('CN', 'AS')
+     ('CO', 'AF')
+     ('CG', 'AF')
+     ('CD', 'AF')
+     ('CI', 'AF')
+     ('HR', 'EU')
+     ('CU', 'NA')
+     ('CY', 'EU')
+     ('CZ', 'EU')
+     ('DK', 'EU')
+     ('DM', 'SA')
+     ('DO', 'SA')
+     ('EC', 'SA')
+     ('EG', 'AF')
+     ('GQ', 'AF')
+     ('EE', 'EU')
+     ('ET', 'AF')
+     ('FJ', 'PC')
+     ('FI', 'EU')
+     ('FR', 'EU')
+     ('GA', 'AF')
+     ('GM', 'AF')
+     ('GE', 'AS')
+     ('DE', 'EU')
+     ('GH', 'AF')
+     ('GR', 'EU')
+     ('GU', 'NA')
+     ('GN', 'AF')
+     ('GW', 'AF')
+     ('VA', 'EU')
+     ('HK', 'AS')
+     ('HU', 'EU')
+     ('IS', 'EU')
+     ('IN', 'AS')
+     ('ID', 'AS')
+     ('IR', 'ME')
+     ('IQ', 'ME')
+     ('IE', 'EU')
+     ('IL', 'ME')
+     ('IT', 'EU')
+     ('JM', 'NA')
+     ('JP', 'AS')
+     ('JO', 'ME')
+     ('KZ', 'AS')
+     ('KE', 'AF')
+     ('KI', 'AS')
+     ('KP', 'AS')
+     ('KR', 'AS')
+     ('KW', 'ME')
+     ('LA', 'AS')
+     ('LV', 'EU')
+     ('LB', 'ME')
+     ('LY', 'AF')
+     ('LT', 'EU')
+     ('LU', 'EU')
+     ('MO', 'AS')
+     ('MK', 'EU')
+     ('MG', 'AF')
+     ('MY', 'AS')
+     ('ML', 'AF')
+     ('MU', 'AF')
+     ('MX', 'NA')
+     ('MC', 'EU')
+     ('MN', 'AS')
+     ('ME', 'EU')
+     ('MA', 'AF')
+     ('MZ', 'AF')
+     ('MM', 'AS')
+     ('NP', 'AS')
+     ('NL', 'EU')
+     ('NZ', 'PC')
+     ('NE', 'AF')
+     ('NG', 'AF')
+     ('NO', 'EU')
+     ('OM', 'ME')
+     ('PK', 'AS')
+     ('PS', 'ME')
+     ('PY', 'SA')
+     ('PE', 'SA')
+     ('PH', 'AS')
+     ('PL', 'EU')
+     ('PT', 'EU')
+     ('QA', 'ME')
+     ('RO', 'EU')
+     ('RW', 'AF')
+     ('SA', 'ME')
+     ('SC', 'AF')
+     ('SL', 'AF')
+     ('SG', 'AS')
+     ('SK', 'EU')
+     ('SI', 'EU')
+     ('ZA', 'AF')
+     ('ES', 'EU')
+     ('LK', 'AS')
+     ('SE', 'EU')
+     ('CH', 'EU')
+     ('SY', 'ME')
+     ('TW', 'AS')
+     ('TJ', 'AS')
+     ('TZ', 'AF')
+     ('TH', 'AS')
+     ('TL', 'AS')
+     ('TN', 'AF')
+     ('TR', 'EU')
+     ('TM', 'AS')
+     ('UG', 'AF')
+     ('UA', 'EU')
+     ('AE', 'ME')
+     ('GB', 'EU')
+     ('US', 'NA')
+     ('UY', 'SA')
+     ('UZ', 'AS')
+     ('VE', 'SA')
+     ('VN', 'AS')
+     ('EH', 'AF')
+     ('YE', 'ME')
+     ('ZM', 'AF')
+     ('ZW', 'AF')
 UNLOCK TABLES;
