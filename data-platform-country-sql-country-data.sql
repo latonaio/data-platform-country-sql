@@ -1,6 +1,10 @@
 CREATE TABLE `data_platform_country_country_data` (
-    `Country`           varchar(3) NOT NULL,
-    `GlobalRegion`      varchar(3) NOT NULL,
+
+    `Country`               varchar(3) NOT NULL,
+    `GlobalRegion`          varchar(3) NOT NULL,
+    `CreationDate`          date NOT NULL,
+    `LastChangeDate`        date NOT NULL,
+    `IsMarkedForDeletion`   tinyint(1) DEFAULT NULL,
 
   PRIMARY KEY (`Country`),
 
